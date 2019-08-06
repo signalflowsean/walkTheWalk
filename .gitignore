@@ -1,8 +1,5 @@
 /node_modules
 
-# This is where the original drum files in their preserved heirarchy live
-/static
-
 # This is where the drum files are moved to
 /destDir
 

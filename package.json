@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --nolazy --inspect-brk=9229 index.js",
+    "lint": "eslint"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "glob": "^7.1.4"
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
   }
 }
